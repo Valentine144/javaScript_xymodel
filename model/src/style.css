@@ -1,0 +1,67 @@
+
+/*
+** coordinate system
+*/
+
+#Flat {
+	display: table;
+	border-spacing: 53px;
+	/*margin-left: 4px;*/
+	/*background-color: #abc;*/
+}
+
+.y {
+	display: table-row;
+
+}	
+
+.x {
+	display: table-cell;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.9);
+	/*background-color: black;*/
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 15px;
+}
+
+/*
+** Output
+*/
+
+p {
+	width: 140px;
+	background-color: rgba(150,150,200,0.2);
+	border: 3px solid black;
+	display: table-cell;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#Beauty {
+	background-color: rgba(150,150,200,0.2);
+	border: 3px solid black;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+	font-weight: bold;
+	height: 40px;
+	position: relative; 
+	left: -50%;
+	width: 300px;
+}
+
+#Screen {
+	display: table-cell;
+}
+
+#Parent {
+	display: table;
+	padding: 1%;
+	margin-top: 60px;
+}
